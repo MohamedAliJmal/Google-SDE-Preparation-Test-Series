@@ -1,0 +1,1 @@
+Given three integers N, A, and B. The task is to find the sum of all those numbers from 1 to N that are divisible by A or by B.
