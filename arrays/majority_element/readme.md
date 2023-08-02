@@ -1,0 +1,3 @@
+Given an array A of N elements. Find the majority element in the array. A majority element in an array A of size N is an element that appears more than N/2 times in the array.
+
+### there is 3 ways to solved this problem. brute force(two nested loop) T.C(n²) S.C(1) , with hashing T.C(n) ,S.C(n) , or with moore voting algorithm(we set a counter and an element than we iterate the array if the we have the same element we increment else we decrement. if counter=0 than we change the element . after stop iterating we verify the result elemnt if it appears more than N/2 times . T.C:O(n) ,S.C(1)   )
